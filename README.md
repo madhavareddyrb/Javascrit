@@ -15,3 +15,10 @@ How many datatypes in js and simple examples explored and var is variable(stroes
 explored variables and var,let,const based on the scopes later we will get best understanding of these
 
 04.Operations.js
+
+explored basic operations in js and 1.arthemetic operations,2.Comparison operations,3.Logical Operators,4.Assignment Operators
+Short hand method (++,--)
+
+operatingPrecidence.js
+exploring bodmas rules to basics and bracket first
+
