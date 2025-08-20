@@ -57,10 +57,11 @@ else {}
 () --> conditions checks here
 {} --> Block of code 
 
-# how to check datatypes and compare  in condition
-# finding length of array using length property
-# checking bool values is true or false no need to compare or checks of datatype just pass variable name in condition to checks
+# how to check datatypes and compare  in condition finding length of array using length property
 
+checking bool values is true or false no need to compare or checks of datatype just pass variable name in condition to checks
+
+Please explore part3 files to better understanding
 
 ## Array Challenges
 1.we can access arays using inde values starts from 0 to know last element us length method
