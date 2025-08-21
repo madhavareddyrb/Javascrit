@@ -120,3 +120,17 @@ we use concat method to merge perfectly --> array1.concate(array2)
 by using includes method we can do that --> arrayname.include('value')
 
 Please refer part4 arrayChallenges for better understanding
+
+
+# Day3(21-08-2025)
+
+# Loops
+
+entery --> condition --> True or False
+when condition hits true --> 
+
+
+
+Completed loops
+               
+
