@@ -132,5 +132,9 @@ when condition hits true -->
 
 
 Completed loops
-               
+
+
+# Day 4 (22-08-2025)
+
+Function Completed               
 
