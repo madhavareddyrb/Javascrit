@@ -129,6 +129,35 @@ Please refer part4 arrayChallenges for better understanding
 entery --> condition --> True or False
 when condition hits true --> 
 
+while loop() --> a loop that repeats a block of code util the specified condition is True
+Here we don't know how many times the loop continue It is purley on condtion
+
+dowhile() --> A loop that exeutes the block of code atleast once and later checks the conditon same as while
+
+# for() --> A loop that executes based on specific number of times until based on the condition 
+for (statement 1 ; statement 2 ; statement 3){   
+   code here...
+   }
+Statement 1: It is the initialization of the counter. It is executed once before the execution of the code block.
+Statement 2: It defines the testing condition for executing the code block
+Statement 3: It is the increment or decrement of the counter & executed (every time) after the code block has been executed.
+
+# difference
+for loops: These are typically used when the number of iterations is known or can be determined before the loop begins.
+while loops: These are used when the number of iterations is unknown and depends on a specific condition being met. 
+
+
+forof() --> It is used to iterate through iteratable objects(like arrays,objects,strings,etc) -- Main Used in arrays
+
+forin() --> same like forof but used for objects more {key:value}
+
+foreach() --> The method calls a function for each element in an array.
+
+break: breaks the loop
+continue : skip the current value
+pass : just pass nothing happens here
+
+when we use foreach we won't able to write break,continue because it written using function so we use return
 
 
 Completed loops
@@ -137,4 +166,21 @@ Completed loops
 # Day 4 (22-08-2025)
 
 Function Completed               
+
+
+# Day 5 (26-08-2025)
+
+Prototypes:
+
+JS is prototype and prototype executes the code
+its like cretaing objects from accesing function using prototypes methods
+In js everything is an object behind the scenes 
+
+
+Functional Constructor:
+
+starts with function
+function name starts with capital letter
+
+
 
