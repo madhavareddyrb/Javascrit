@@ -183,4 +183,19 @@ starts with function
 function name starts with capital letter
 
 
+# OOP: Object Orieneted Program
+
+creating classes and creating objects and it includes four types
+1.Encapsulation(protechting or grouping data)
+2.inheritance (access other objects using extends method)
+3.Polymorphism
+4.Abstraction
+
+class --> object1,object2,object3 we can call instances of class also
+
+
+
+
+
+
 
