@@ -193,7 +193,7 @@ creating classes and creating objects and it includes four types
 
 class --> object1,object2,object3 we can call instances of class also
 
-
+written some little explantions is coding files 
 
 
 
