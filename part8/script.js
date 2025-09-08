@@ -70,9 +70,50 @@ document.getElementById("clickMeButton").addEventListener("mouseup", function(){
 
 
 
+// Example-7 -> Event Delegation
 
 
+document.getElementById('teaList').addEventListener('click', function(event){
+  if (event.target && event.target.matches(".teaItem")){
+    alert('you selected:'+ event.target.textContent);
+  };
+});
 
+
+// Example-8 --> Form Handling
+
+/*
+document.getElementById("feedbackForm").addEventListener("click", function(event){
+  event.preventDefault();
+  let feedback = document.getElementById("feedbackInput").value;
+  document.getElementById('feedbackDisplay').textContent = `Feedback is: ${feedback}`;
+});
+
+*/
+document.getElementById("feedbackForm").addEventListener("click",function(event){
+  event.preventDefault();
+ 
+  //let label = document.getElementsByTagName("label")
+  //console.log(label);
+  
+  let feedback = document.getElementById("feedbackInput").value;
+  document.getElementById("feedbackDisplay").textContent = `Feedback is: ${feedback}`
+})
+
+
+// Example-9 : DOM Contented Loaded
+
+document.addEventListener("DOMContentLoaded", function(){
+  document.getElementById("domStatus").textContent = "DOM Fully Loaded";
+});
+ 
+
+// Example-10: CSS CLasses Manipulation
+
+document.getElementById("toggleHighlight").addEventListener('click',function(){
+ let descriptionText =  document.getElementById("descriptionText");
+ descriptionText.classList.toggle('highlight');
+})
 
 
 

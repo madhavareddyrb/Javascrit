@@ -233,6 +233,58 @@ Conclusion for Example 1:
 4.Use Only function (){}(normal functions) beacuse it give us the exact context we can check using console.log(this) and on otherhand when we use arrow functions it gives us window context so it not recommended
 5.for changing get element need to change store i variable and by using innerHtml,innerText,TextContent we chnage the text or content inside html
 
-*/
+
+Example - 2 -> Travsering the document
+
+1.learned how to add CSS class to element
+2.firstElementChild of ul tag is li tag
+3.added classList to change first elemnt background.
+
+Example-3 -> Manupulation of elements
+
+1.Learned how to add styles using style keyword
+coffee.style.bg = 'red' and tried with new mouseover event here.
+
+Example-4 -> Creating and Inserting elements
+
+Learned How to create an newElement in js and how to add that newElement to Manipulate  the html
+
+1.cretae a new variable let newItem and create element accodring to the Html Tag in js by document.createElement("li")
+2.for newItem give a value by textContent (newItem.textContent = "Eggs")
+and add that using appendChild to the shopping list id(ul tag)  document.getElementById("shoppingList").appendChild(newItem);
+3.Here is a new thing that in HTML we call things tags and elements but when comes to DOM we call that are node
+4.HTML is markup language and DOM is already processed elements in the document Tree so we call then node
+
+Example-5 -> Removing DOM elements
+
+new Thing here is there is an method remove (removes everything) to remove only last element we need an lastElementChild.remove() to remove last elemet
+
+Example -6 -> Event Handling in DOM
+
+explore some more events
+
+Example-7 -> Event Delegation
+
+1.Learned about event
+2.for every addEventLister there is an name that is event like click,etc we can pass that event in function to make use of it and to get unique id items by using target
+Ex: event.target
+
+Example - 8 --> Form Handling in DOM
+
+1.Get Total Form using getElementById
+2.prevent default submit form of HTML to DOM
+3.Input element value by id and store in a variable by .value(to extract value of that input field)
+4.get display elemnt and display the stored variable input value in p tag.
+
+
+Example -9 --> DOM content loaded
+
+we are directly working with DOM so we can add direct eventListener and chnage the text to DOM fully loaded
+
+Example 10 --> CSS Classes Manipulation
+
+the toggle classList of CSS to toggle items like dark theme to light theme  
+
+
 
 
