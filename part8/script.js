@@ -12,22 +12,69 @@ document.getElementById('changeTextButton').addEventListener('click', function (
   paragraph.textContent = "The Paragraph is changed"
 });
 
-/*
-Conclusion for Example 1:
-0.First get elemnt on what event id and later add get element of what need to chnage
-1.whole html file is document thats the reason why documnet works to get elements of html
-2.There are differnt methods to get element by getElementById(specific to only id) but there are querySelectors(#idname) they are differnt not much specific to id or class for that we use querySelectors(#idnmae) and querySelectors(.classname)
-3.addEventLister comes with 2 paramters one for event and one for function what need to do here we use click event because when we click on button need to change paragraph
-4.Use Only function (){}(normal functions) beacuse it give us the exact context we can check using console.log(this) and on otherhand when we use arrow functions it gives us window context so it not recommended
-5.for changing get element need to change store i variable and by using innerHtml,innerText,TextContent we chnage the text or content inside html
 
-*/
 
-// Example-2
+// Example-2 Traversing the DOM
 
-document.getElementById(highlightFirstCity).addEventListener('click', function (){
-  let citiesList = document.getElementsById('citiesList');
+document.getElementById('highlightFirstCity').addEventListener('click', function () {
+  console.log(this);
+  let citiesList = document.getElementById('citiesList');
   citiesList.firstElementChild.classList.add('highlight');
-  
 }
 );
+
+
+// Example -3  -Manipulation DOM Elements
+
+document.getElementById("changeOrder").addEventListener('mouseover',function (){
+  let coffeType = document.getElementById('coffeeType');
+  coffeType.textContent = "Espresso";
+  coffeType.style.backgroundColor = "red";
+  coffeType.style.padding = "10px";
+})
+
+
+// Example-4: Creating and Inserting Elements
+
+// Process: we have to create Element item and later insert
+
+document.getElementById("addNewItem").addEventListener('click', function(){
+  let newItem = document.createElement("li");
+  newItem.textContent = "Eggs";
+
+  document.getElementById("shoppingList").appendChild(newItem);
+
+});
+
+
+// Example-5 -> Removing DOM Elements
+
+document.getElementById("removeLastTask").addEventListener("click", function (){
+  console.log(this);
+  
+  let lastTask = document.getElementById("taskList");
+  console.log(lastTask);
+  lastTask.lastElementChild.remove();
+});
+
+
+// Example-6 -> Event Handling in DOM
+/*
+document.getElementById("clickMeButton").addEventListener('dblclick', function(event) {
+  alert("Events in DOM");
+})*/
+document.getElementById("clickMeButton").addEventListener("mouseup", function(){
+  alert("Events in DOM");
+})
+// mouseover,click,etc
+
+
+
+
+
+
+
+
+
+
+
