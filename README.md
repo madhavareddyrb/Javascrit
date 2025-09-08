@@ -196,5 +196,22 @@ class --> object1,object2,object3 we can call instances of class also
 written some little explantions is coding files 
 
 
+### Assignments Conclusion
 
+1.TypeCasting
+
+Conclusion:
+1.To check type we use typeof value
+2.Use triple equal signs === to check datatypes
+3.To convert type cast we use Capital Letters Number(input),String(input) like that
+4.To check datatype of that input or value we check with  lower letter here typeof == 'string'
+5.If we need to check that any boolean values we don't need to write condition type check just value is enough(2,4 questios)
+
+
+2.Variables and Operators
+
+Conclusion:
+
+1.Learned some operators and for small a+b we don't need to create an variable again we can return directly
+2.When comes to decrement and increment we need to create variable because we don't assign values directly to const variable
 
