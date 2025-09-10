@@ -14,7 +14,6 @@ function fetchData (){
         reject('Error Fetching Data');
       }
     }, 3000);
-
   });
 }
 //console.log(fetchData()); // promise Pending

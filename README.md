@@ -319,6 +319,10 @@ Next time you use setTimeout or fetch data from an API, remember—JavaScript al
 
 # Clousures 
 
-A function Returning another function is simple as a clousures
+A function has environment access to inner function is simple as a clousures
+inner function variables have access to outer Variables and Its Context
 
-and inner function variables have access to outer Variables and Its Context
+
+# Promises and promise Chain
+
+
