@@ -7,11 +7,11 @@
 function fetchData (){
   return new Promise((reslove,reject) => {
     setTimeout(() => {
-      let success = false;
+      let success = true;
       if (success){
         reslove(`Data Fetched Successfully`);
       } else{
-        reject('Error fetching Data');
+        reject('Error Fetching Data');
       }
     }, 3000);
 
@@ -39,5 +39,6 @@ fetchData()
             console.log(value);            
           })
           .catch((error) => {
-            console.log(error);            
+            console.log(error);        
           })
+          
