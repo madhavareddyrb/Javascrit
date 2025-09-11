@@ -315,12 +315,9 @@ The magic of async JavaScript isn’t in the language itself, but in how the Cal
 Next time you use setTimeout or fetch data from an API, remember—JavaScript alone isn’t doing the heavy lifting. The environment + event loop is!
 
 
-
-
 # Clousures 
 
 A function has environment access to inner function is simple as a clousures
-inner function variables have access to outer Variables and Its Context
 
 
 # Promises and promise Chain

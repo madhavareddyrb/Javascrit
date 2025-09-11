@@ -5,7 +5,7 @@ const personDetailes = {
   age : 23,
   greet(){
     //console.log('these is printing not const variable');
-    
+        
     console.log(`hi my name is ${this.name} and my number is ${this.number}`);  
   }
 }
