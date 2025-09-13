@@ -5,6 +5,7 @@ let arr = [1,'madhava','22',4,6,7]
 console.log(filterNumbers(arr));
 
 
+
 function reverseArray(arr) {
     return arr.reverse();
 }

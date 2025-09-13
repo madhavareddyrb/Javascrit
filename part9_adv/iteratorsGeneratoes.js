@@ -16,5 +16,3 @@ console.log(gen.next().value);
 console.log(genTwo.next().value);
 console.log(genTwo.next().value);
 
-
-

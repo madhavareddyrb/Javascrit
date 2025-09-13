@@ -1,5 +1,6 @@
 # Javascrit
-Learning Js from Hitesh Chowdary udemy course
+
+Learning Js from Hitesh Chowdary sir udemy course
 
 # Day1(19-08-2025):
 1.printing.js 
@@ -17,9 +18,11 @@ explored variables and var,let,const based on the scopes later we will get best 
 04.Operations.js
 
 explored basic operations in js and 1.arthemetic operations,2.Comparison operations,3.Logical Operators,4.Assignment Operators
+
 Short hand method (++,--)
 
 operatingPrecidence.js
+
 exploring bodmas rules to basics and bracket first
 
 ## Part2
@@ -36,16 +39,20 @@ Everything in js is Objects
 # new keyword create object data type every single primitive can be able to covertable to non-primitive
 
 // Number
+
 please explore part2 files
 
 
 # Day2(20-08-2025)
+
 ## Non-primitives
 
 when we use objs or non-primitives takes large space is resered in location inside non-primitives values are primitives(String,Number)
+
 const username = {
   firstname:'madhava'
 };
+
 here const memory references is fix but inside primitives values are changable
 
 Type Conervsion also covered some basics
@@ -53,6 +60,7 @@ Type Conervsion also covered some basics
 part3 (conditional - challenges)
 
 if () {} --> if condition true block of code will be going to execute or else block of code will be executed
+
 else {}
 () --> conditions checks here
 {} --> Block of code 
@@ -69,7 +77,8 @@ Please explore part3 files to better understanding
 Example: tea[2] = "chai";
 
 3.How can we add values in array ?
-by knowing length and we can add values using index --> city[2] = "Berlin"
+
+we can access array by knowing length and we can add values using index --> city[2] = "Berlin"
 --> city[city.length] = "Berlin"
 Eventhough that works but we can't use that for large data so we use push method
 # push method
@@ -321,5 +330,4 @@ A function has environment access to inner function is simple as a clousures
 
 
 # Promises and promise Chain
-
 
